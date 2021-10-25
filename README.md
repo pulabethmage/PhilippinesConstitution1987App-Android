@@ -1,6 +1,9 @@
 # PhilippinesConstitution1987App-Android
 App inclusive with all the information related to Philippines Constitution 1987
 
+- App Contains Google Ads
+- Uses inbuilt database
+
 </br> </br> 
 <table>
   <tr> 
