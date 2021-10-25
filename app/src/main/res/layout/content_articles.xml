@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ArticlesActivity"
+    tools:showIn="@layout/activity_articles"
+    android:fillViewport="true">
+
+
+        <ListView
+            android:scrollbars="none"
+            android:layout_marginBottom="50dp"
+            android:layout_margin="10dp"
+            android:id="@+id/articlesListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="5dp"
+            android:nestedScrollingEnabled="true"
+            android:divider="@android:color/transparent"/>
+
+
+
+
+</androidx.core.widget.NestedScrollView>

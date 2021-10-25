@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rcustodio.philippinesconstitution1987">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2415030290687873~1594655026"/>
+
+
+
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article18Activity"
+            android:label="@string/title_activity_article18"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article17Activity"
+            android:label="@string/title_activity_article17"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article16Activity"
+            android:label="@string/title_activity_article16"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article15Activity"
+            android:label="@string/title_activity_article15"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article14EActivity"
+            android:label="@string/title_activity_article14"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article14.Article14Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article14.Article14Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article14DActivity"
+            android:label="@string/title_activity_article14"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article14.Article14Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article14.Article14Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article14CActivity"
+            android:label="@string/title_activity_article14"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article14.Article14Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article14.Article14Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article14BActivity"
+            android:label="@string/title_activity_article14"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article14.Article14Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article14.Article14Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article14AActivity"
+            android:label="@string/title_activity_article14"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article14.Article14Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article14.Article14Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article14.Article14Activity"
+            android:label="@string/title_activity_article14"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+
+
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article13HActivity"
+            android:label="@string/title_activity_article13"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity" />
+        </activity>
+
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article13GActivity"
+            android:label="@string/title_activity_article13"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article13FActivity"
+            android:label="@string/title_activity_article13"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article13EActivity"
+            android:label="@string/title_activity_article13"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article13DActivity"
+            android:label="@string/title_activity_article13"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article13CActivity"
+            android:label="@string/title_activity_article13"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article13BActivity"
+            android:label="@string/title_activity_article13"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article13AActivity"
+            android:label="@string/title_activity_article13"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity" />
+        </activity>
+
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article13.Article13Activity"
+            android:label="@string/title_activity_article13"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article12Activity"
+            android:label="@string/title_activity_article12"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article11Activity"
+            android:label="@string/title_activity_article11"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article10BActivity"
+            android:label="@string/title_activity_article10_title"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article10.Article10Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article09.Article09Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article10AActivity"
+            android:label="@string/title_activity_article10_title"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article10.Article10Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article09.Article09Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article10.Article10Activity"
+            android:label="@string/title_activity_article10"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article09DActivity"
+            android:label="@string/title_activity_article09_title"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article09.Article09Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article09.Article09Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article09CActivity"
+            android:label="@string/title_activity_article09_title"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article09.Article09Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article09.Article09Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article09BActivity"
+            android:label="@string/title_activity_article09_title"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article09.Article09Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article09.Article09Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article09AActivity"
+            android:label="@string/title_activity_article09_title"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.Article09.Article09Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.Article09.Article09Activity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article09.Article09Activity"
+            android:label="@string/title_activity_article09"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article08Activity"
+            android:label="@string/title_activity_article08"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article07Activity"
+            android:label="@string/title_activity_article07"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article06Activity"
+            android:label="@string/title_activity_article06"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article05Activity"
+            android:label="@string/title_activity_article05"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article04Activity"
+            android:label="@string/title_activity_article04"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article03Activity"
+            android:label="@string/title_activity_article03"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article1Activity"
+            android:label="@string/title_activity_article1"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.Article2Activity"
+            android:label="@string/title_activity_article2"
+            android:parentActivityName="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rcustodio.philippinesconstitution1987.ArticlesActivity" />
+        </activity>
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.ArticlesActivity"
+            android:label="@string/title_activity_articles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.rcustodio.philippinesconstitution1987.PreambleActivity"
+            android:label="@string/title_activity_preamble"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.rcustodio.philippinesconstitution1987.HomeActivity" />
+        <activity android:name="com.rcustodio.philippinesconstitution1987.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
